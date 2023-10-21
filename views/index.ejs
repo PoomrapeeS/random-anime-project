@@ -1,5 +1,39 @@
 <%- include('partials/header.ejs') %>
 
-    <p>This is ejs file</p>
+<div id="title" class="text-center py-4">
+    <h1 class="fw-bold">Find Anime to Watch         
+        <span>
+            <img src="images/wizard_orb_crop.png" alt="" style="width: 5%;">
+        </span>
+    </h1>
+</div>
+
+<div id="random-anime" class="container text-lg-start text-center">
+    <div class="row">
+        <div class="col-lg-3 col-12">
+            <div id="anime-image" class="text-center mx-auto">
+                <img class="img-fluid" src="<%= data.images.jpg.large_image_url %>" alt="" style="width: 100%;">
+            </div>
+        </div>
+        <div class="col-lg-9 col-12">
+            <div>
+                <h2>Title: <span><%= data.titles[0].title %></span></h2>
+            </div>
+            <div class="anime-summary-container">
+                <h2>Summary:</h2>
+                <p class="summary-text"><%= data.synopsis %></p>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <h2>Score: <%= data.score %></h2>
+                </div>
+                <div class="col-6">
+                    <h2>Rank: <%= data.rank %></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <%- include('partials/footer.ejs') %>

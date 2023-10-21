@@ -1,0 +1,51 @@
+h1{
+    font-family: 'Young Serif', serif;    
+}
+
+h2{
+    font-family: 'Young Serif', serif;
+    font-size: 28px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+#random-anime.container{
+    margin: 0 10%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#anime-image {
+    width: 200px;
+    min-height: 120px;
+    max-height: auto;
+    margin: 3px;
+    padding: 3px;
+}
+
+
+#footer{
+    background-color: #2E51A2;
+    position: absolute;
+    color: white;
+    bottom: 0;
+}
+
+.anime-summary-container{
+    height: 180px;
+}
+
+.summary-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
