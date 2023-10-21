@@ -8,7 +8,7 @@ If you are a fan of anime and have no idea what to watch next this website is th
 First clone the project to local folder
 
 ```bash
-    git clone https://github.com/PoomrapeeS/public-api-project.git <project_folder_name>
+    git clone https://github.com/PoomrapeeS/random-anime-project.git <project_folder_name>
 ```
 
 go to the project folder and run npm install to download all require modules
